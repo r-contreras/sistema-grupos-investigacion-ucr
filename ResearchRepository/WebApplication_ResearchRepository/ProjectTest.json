@@ -1,0 +1,31 @@
+{
+	"Name": "Prueba1",
+	"StartDate": "2000-06-23",
+	"EndDate": "2020-06-23",
+	"Description": "Esto es una prueba",
+	"Summary": "Esto es una prueba",
+	"Image": "img/DefaultImage.png",
+	
+	"Persons": [
+		{
+			"Email": "andrea.alvaradoacon@ucr.ac.cr",
+			"Role": "Colaborador Interno"
+		},
+		{
+			"Email": "antonio.badilla@ucr.ac.cr",
+			"Role": "Colaborador Externo"
+		},
+		{
+			"Email": "cristian.quesadalopez@ucr.ac.cr",
+			"Role": "Investigador Principal"
+		}
+	],
+	"Theses": [
+		{ "name": "Evaluating an automated procedure of machine learning parameter tuning for software effort estimation" }
+	],
+	"Publications": [
+		{ "PublicationID": "10.1007/978-3-030-01171-0_15" },
+		{ "PublicationID": "10.1007/978-3-030-40690-5_26" },
+		{ "PublicationID": "10.1007/978-3-030-51517-1_1" }
+	]
+}
