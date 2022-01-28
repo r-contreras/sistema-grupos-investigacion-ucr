@@ -51,13 +51,13 @@ else
             <MudItem xs="6">
                 <MudPaper Class="pa-3" Elevation="3">
                         <PopUpChart groupsIds="_groupsIds" total="totalPublications" data="@_researchArea" name="Cantidad de publicaciones por área de investigación" xAxis="Áreas de investigación" filter="true" listSubareas="@researchArea"></PopUpChart>
-                        <Filter groupsIds="_groupsIds" total="totalPublications" listSubareas="@researchArea" data="_researchArea" name="Cantidad de publicaciones por área de investigación" xAxis="Áreas de investigación"></Filter>
+                        <ResearchRepository.Presentation.StatisticsContext.Components.Filter groupsIds="_groupsIds" total="totalPublications" listSubareas="@researchArea" data="_researchArea" name="Cantidad de publicaciones por área de investigación" xAxis="Áreas de investigación"></ResearchRepository.Presentation.StatisticsContext.Components.Filter>
                 </MudPaper>
             </MudItem>
             <MudItem xs="6">
                 <MudPaper Class="pa-3" Elevation="3">
                         <PopUpChart data="@_years" name="@yearsString" xAxis="Años" filter="true"></PopUpChart>
-                        <Filter data="@_years" name="@yearsString" xAxis="Años" ></Filter>
+                        <ResearchRepository.Presentation.StatisticsContext.Components.Filter data="@_years" name="@yearsString" xAxis="Años" ></ResearchRepository.Presentation.StatisticsContext.Components.Filter>
                 </MudPaper>
             </MudItem>
             <MudItem xs="6">
@@ -75,7 +75,7 @@ else
             <MudItem xs="6">
                 <MudPaper Class="pa-3" Elevation="3">
                     <PopUpChart total="totalPublications" data="@_typePublicationYears" data2="@_typePublicationYears2" name="Cantidad de publicaciones según tipo de publicación y años" xAxis="Años" groupsIds="@_groupsIds" filter="true"></PopUpChart>
-                    <Filter total="totalPublications" data="@_typePublicationYears" data2="@_typePublicationYears2" name="Cantidad de publicaciones según tipo de publicación y años" xAxis="Años" groups="@_groupsIds"></Filter>
+                    <ResearchRepository.Presentation.StatisticsContext.Components.Filter total="totalPublications" data="@_typePublicationYears" data2="@_typePublicationYears2" name="Cantidad de publicaciones según tipo de publicación y años" xAxis="Años" groups="@_groupsIds"></ResearchRepository.Presentation.StatisticsContext.Components.Filter>
                 </MudPaper>
             </MudItem>
         </MudGrid>

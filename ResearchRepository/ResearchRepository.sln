@@ -3,32 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database_ResearchRepository", "Database_ResearchRepository\Database_ResearchRepository.sqlproj", "{00AAD772-E634-4241-96B1-F048B5EC0DF5}"
-	ProjectSection(ProjectDependencies) = postProject
-		{6A193F06-952B-479F-83AA-45302BD08B68} = {6A193F06-952B-479F-83AA-45302BD08B68}
-		{AF16651C-984A-4DF9-A031-D9CBB534BBDD} = {AF16651C-984A-4DF9-A031-D9CBB534BBDD}
-		{2B9FEF30-BEE8-45C5-80B1-FFC01E45AE2A} = {2B9FEF30-BEE8-45C5-80B1-FFC01E45AE2A}
-		{B8AE5B4A-A14C-44C0-9233-05A4ABED6182} = {B8AE5B4A-A14C-44C0-9233-05A4ABED6182}
-		{A5051A6D-C078-4BDB-AE97-231C8A1EE855} = {A5051A6D-C078-4BDB-AE97-231C8A1EE855}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication_ResearchRepository", "WebApplication_ResearchRepository\WebApplication_ResearchRepository.csproj", "{B8AE5B4A-A14C-44C0-9233-05A4ABED6182}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication_ResearchRepository", "WebApplication_ResearchRepository\WebApplication_ResearchRepository.csproj", "{B8AE5B4A-A14C-44C0-9233-05A4ABED6182}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AF16651C-984A-4DF9-A031-D9CBB534BBDD} = {AF16651C-984A-4DF9-A031-D9CBB534BBDD}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResearchRepository.Application", "Application\ResearchRepository.Application.csproj", "{AF16651C-984A-4DF9-A031-D9CBB534BBDD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResearchRepository.Application", "Application\ResearchRepository.Application.csproj", "{AF16651C-984A-4DF9-A031-D9CBB534BBDD}"
-	ProjectSection(ProjectDependencies) = postProject
-		{2B9FEF30-BEE8-45C5-80B1-FFC01E45AE2A} = {2B9FEF30-BEE8-45C5-80B1-FFC01E45AE2A}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResearchRepository.Domain", "Domain\ResearchRepository.Domain.csproj", "{2B9FEF30-BEE8-45C5-80B1-FFC01E45AE2A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResearchRepository.Domain", "Domain\ResearchRepository.Domain.csproj", "{2B9FEF30-BEE8-45C5-80B1-FFC01E45AE2A}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResearchRepository.Infrastructure", "Infrastructure\ResearchRepository.Infrastructure.csproj", "{6A193F06-952B-479F-83AA-45302BD08B68}"
-	ProjectSection(ProjectDependencies) = postProject
-		{AF16651C-984A-4DF9-A031-D9CBB534BBDD} = {AF16651C-984A-4DF9-A031-D9CBB534BBDD}
-		{2B9FEF30-BEE8-45C5-80B1-FFC01E45AE2A} = {2B9FEF30-BEE8-45C5-80B1-FFC01E45AE2A}
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResearchRepository.Infrastructure", "Infrastructure\ResearchRepository.Infrastructure.csproj", "{6A193F06-952B-479F-83AA-45302BD08B68}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResearchRepository.Presentation", "Presentation\ResearchRepository.Presentation.csproj", "{A5051A6D-C078-4BDB-AE97-231C8A1EE855}"
 EndProject
@@ -44,18 +25,14 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database_ResearchRepository
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UITestsSelenium", "UITestsSelenium\UITestsSelenium.csproj", "{0DC2C8DD-040D-4877-B9CD-B6D205B0C009}"
 EndProject
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Database_ResearchRepository", "Database_ResearchRepository\Database_ResearchRepository.sqlproj", "{932A2619-0DFB-4F7B-94D1-A2537C37ED2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{00AAD772-E634-4241-96B1-F048B5EC0DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00AAD772-E634-4241-96B1-F048B5EC0DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00AAD772-E634-4241-96B1-F048B5EC0DF5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{00AAD772-E634-4241-96B1-F048B5EC0DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00AAD772-E634-4241-96B1-F048B5EC0DF5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{00AAD772-E634-4241-96B1-F048B5EC0DF5}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{B8AE5B4A-A14C-44C0-9233-05A4ABED6182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B8AE5B4A-A14C-44C0-9233-05A4ABED6182}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8AE5B4A-A14C-44C0-9233-05A4ABED6182}.Release|Any CPU.ActiveCfg = Release|Any CPU
